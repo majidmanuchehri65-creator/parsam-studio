@@ -1,0 +1,105 @@
+
+{
+  "ParSamStudio": {
+    "softwareName": "ParSam Studio",
+    "theme": "midnight-blue",
+    "colors": {
+      "background": "#000000",
+      "panel": "#001a33",
+      "primary": "#004080",
+      "accent": "#0059b3",
+      "text": "#FFFFFF",
+      "border": "#004080"
+    },
+    "window": {
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#004080"
+    },
+    "toolbar": {
+      "position": "top",
+      "iconSize": "large",
+      "iconColor": "#0059b3",
+      "hoverEffect": true,
+      "iconsHorizontal": true,
+      "tooltips": true
+    },
+    "modules": {
+      "LogoStudio": {
+        "moduleName": "Logo Studio",
+        "AIInput": ["text", "voice", "image", "video"],
+        "mediaUploadPosition": "belowVoiceAI",
+        "theme": "dark",
+        "tooltipEnabled": true,
+        "animation": "fade"
+      },
+      "VoiceAI": {
+        "moduleName": "Sprach KI",
+        "headerHeight": 40,
+        "icon": "microphone",
+        "animation": "slide",
+        "tooltipEnabled": true
+      },
+      "ChatAI": {
+        "moduleName": "Chat KI",
+        "headerIcon": "robot",
+        "animation": "slide",
+        "tooltipEnabled": true
+      },
+      "Notes": {
+        "moduleName": "Notes",
+        "scrollable": true,
+        "multiPage": true,
+        "maxVisibleItems": 20,
+        "style": "SamsungNotesStyle",
+        "exportOptions": ["PDF", "TXT"],
+        "tooltipEnabled": true,
+        "animation": "fade"
+      },
+      "FileManager": {
+        "moduleName": "Data Manager",
+        "folderCreation": true,
+        "dragDrop": true,
+        "scrollable": true,
+        "mediaStorage": true,
+        "tooltipEnabled": true,
+        "animation": "fade"
+      },
+      "OfficeAI": {
+        "moduleName": "EntfGla",
+        "animation": "slide",
+        "tooltipEnabled": true,
+        "theme": "dark"
+      },
+      "SystemCore": {
+        "moduleName": "System Core",
+        "errorWarnings": true,
+        "tooltipEnabled": true,
+        "animation": "fade"
+      },
+      "DevHoop": {
+        "moduleName": "DevHoop",
+        "developerPanel": true,
+        "logViewer": true,
+        "debugTools": true,
+        "tooltipEnabled": true
+      }
+    },
+    "settings": {
+      "language": "English",
+      "availableLanguages": ["English", "Farsi", "German"],
+      "logoutButton": true,
+      "autoSave": true,
+      "settingsToolbarPosition": "top"
+    },
+    "UX": {
+      "hoverEffects": true,
+      "smoothTransitions": true,
+      "toolDescriptionIcon": {
+        "position": "nextToToolName",
+        "clickable": true,
+        "panelOpens": "ToolDescription"
+      }
+    }
+  }
+}

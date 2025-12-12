@@ -1,0 +1,7 @@
+{
+  "name": "ParSam",
+  "description": "An advanced AI-powered note-taking and document-management module of the ParSam ecosystem. Features intelligent content generation, summarization, and chat-with-note capabilities.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
